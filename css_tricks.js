@@ -1,1 +1,1 @@
-"to be filled out";
+"notes for css tricks"
