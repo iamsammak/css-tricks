@@ -7,14 +7,17 @@
 
 // but alas I has no internet
 document.addEventListener('DOMContentLoaded', () => {
-  document.getElementById('width').innerHTML = window.innerWidth;
-  document.getElementById('height').innerHTML = window.innerHeight;
+  const width = document.getElementById('width');
+  const height = document.getElementById('height');
+  width.innerHTML = window.innerWidth;
+  height.innerHTML = window.innerHeight;
 
-  console.log(document.getElementById('test').innerHTML);
+  console.log(`Starting Width ${document.getElementById('width').innerHTML}`);
+  console.log(`Starting Height ${document.getElementById('height').innerHTML}`);
 
   window.addEventListener('resize', e => {
-    document.getElementById('width').innerHTML = window.innerWidth;
-    document.getElementById('height').innerHTML = window.innerHeight;
+    width.innerHTML = window.innerWidth;
+    height.innerHTML = window.innerHeight;
     console.log("updated");
   });
 });
