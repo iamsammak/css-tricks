@@ -1,8 +1,8 @@
 // with jQuery
-// $('span').text($(window).width());
+// $('code').text($(window).width());
 //
 // $(window).on('resize', function(e) {
-//   $('span').text($(window).width());
+//   $('code').text($(window).width());
 // });
 
 // but alas I has no internet
