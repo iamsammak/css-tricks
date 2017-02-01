@@ -49,7 +49,7 @@ h2 {
   margin: 8px;
 }
 
-p:first-of-type {
+p:nth-child(2n) {
   padding-top: 50px;
 }
 
